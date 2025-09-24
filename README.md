@@ -4,30 +4,6 @@
 >[!IMPORTANT]
 >Este es un proyecto creado por una estudiante para aprender a usar LLMs y a usar Python. ¡Cualquier tipo de ayuda es bienvenida!
 
-## 📁 Estructura del proyecto
-
-    DocentIA-App/
-    ├── src/                     
-    │   └── __init__.py
-    ├── tests/                     
-    │   └── __init__.py
-    ├── docs/                     
-    │   └── __init__.py
-    │
-    ├── .gitignore
-    ├── .env
-    ├── README.md
-    ├── requirements.txt        # Python dependencies
-    └── main.py                 # Main script
-
-## 🧰 Tech Stack
-
-- Python 3.11.9
-- LangChain
-- Pydantic
-- MongoDB
-- PyMuPDF
-
 ## 🧩 To-Do List
 ### Producto mínimo viable
 ---
@@ -55,3 +31,28 @@
 - [ ] Marcar zonas del PDF relacionadas con los fallos
 - [ ] Compartir los exámenes
 - [ ] Historial personal 
+
+
+## 📁 Estructura del proyecto
+
+    DocentIA-App/
+    ├── src/                     
+    │   └── __init__.py
+    ├── tests/                     
+    ├── docs/                     
+    │   └── __init__.py
+    │
+    ├── .gitignore
+    ├── .env
+    ├── README.md
+    ├── requirements.txt        # Python dependencies
+    └── main.py                 # Main script
+
+## 🧰 Tech Stack
+
+- Python 3.11.9
+- LangChain
+- Pydantic
+- MongoDB
+- PyMuPDF
+
