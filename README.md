@@ -9,10 +9,10 @@
 ---
 - **Entrada de datos**
     - [ ] Subida de documentos al programa
-    - [ ] Extracción del texto del PDF
+    - [x] Extracción del texto del PDF
     - [ ] Normalización y limpieza del texto 
     - [ ] Chunking/Splitter
-    - [ ] Embedding
+    - [x] Embedding
     - [ ] Subir embeddings a la base de datos
 - **Generación de preguntas para el examen**
     - [ ] Generación de las preguntas según los contenidos dados por el usuario
@@ -36,6 +36,14 @@
 ## 📁 Estructura del proyecto
 
     DocentIA-App/
+    │
+    ├── DocentIA                # Django project
+    │   └── DocentIA_App        # Django Application
+    │       └── migrations
+    │       └── templates       # HTMLs
+    │       └── urls.py
+    │       └── views.py    
+    │
     ├── src/                     
     │   └── __init__.py
     ├── tests/                     
@@ -51,6 +59,7 @@
 ## 🧰 Tech Stack
 
 - Python 3.11.9
+. Django 5.2.6
 - LangChain
 - Pydantic
 - MongoDB
